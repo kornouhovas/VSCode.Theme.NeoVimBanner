@@ -1,0 +1,32 @@
+{
+  "name": "neovim-banner",
+  "displayName": "NeoVimBanner",
+  "description": "VS Code theme inspired by the Neovim banner.",
+  "version": "0.0.1",
+  "publisher": "aleksandersk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kornouhovas/VSCode.-Theme.-NeoVimBanner"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "dist": "vsce package"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.24.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "NeoVimBanner",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neovim-banner-color-theme.json"
+      }
+    ]
+  }
+}
